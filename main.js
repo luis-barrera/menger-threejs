@@ -22,7 +22,7 @@ function main() {
     const color = 0xFFFFFF;
     const intensity = 0.8;
     const light = new THREE.DirectionalLight(color, intensity);
-    light.position.set(2, 1, 5);
+    light.position.set(8, -4, -6);
     scene.add(light);
     // const light2 = new THREE.DirectionalLight(color, intensity);
     // light2.position.set(3, -3, 3);
