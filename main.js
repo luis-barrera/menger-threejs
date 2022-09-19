@@ -24,9 +24,9 @@ function main() {
     const light = new THREE.DirectionalLight(color, intensity);
     light.position.set(8, -4, -6);
     scene.add(light);
-    // const light2 = new THREE.DirectionalLight(color, intensity);
-    // light2.position.set(3, -3, 3);
-    // scene.add(light2);
+    const light2 = new THREE.DirectionalLight(color, intensity);
+    light2.position.set(-8, 3, 3);
+    scene.add(light2);
   }
 
   menger(scene, -1.5, -1.5, -1.5, 3, 3);
